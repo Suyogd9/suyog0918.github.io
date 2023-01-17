@@ -82,8 +82,23 @@
 		</style>
 
 		<style>
+			#liCenter{
+				display: flex;
+				justify-content: center;
+			}
+		</style>
+
+		<style>
 			#skills {
 			padding-left: 120px; /* or any other value */
+			margin: 10px; 
+			}
+		</style>
+
+		<style>
+			#projects {
+			text-align: left;
+			padding-left: 20px; /* or any other value */
 			margin: 10px; 
 			}
 		</style>
@@ -170,47 +185,45 @@
 			<div class="container">
 				<div class="about-content">
 					<div class="row">
-						<div class="col-sm-6">
+						<div class="col-sm-12">
 							<div class="single-about-txt">
 								<h3>
 									About Me
 								</h3>
 								<p>
-									As a skilled software development and engineering professional, I have gained a strong foundation in a wide range of programming languages, including Python, Java, JavaScript, and COBOL, as well as various packages and libraries. I have also gained proficiency in tools and technologies such as IntelliJ, Virtual Studio Code, Bitbucket, JIRA, REST API, Eclipse, and Jenkins, and am proficient in database management systems including Postgres SQL, MySQL, and DB2. My internships, including one at Lexis Nexis Risk Solutions, have allowed me to gain valuable experience and hone my skills in developing and testing applications. My experience as an employee at Reva Energy & Equipment has also given me the opportunity to lead teams and organize client meetings and demonstrations. Currently, I am pursuing a Master's degree in Computer Science at NCSU, where I have completed coursework in design and analysis of algorithms, software engineering, and database management systems. In addition, I have completed technical courses and course projects in areas such as machine learning, data science, and artificial intelligence, and have been recognized for my academic and professional achievements with a number of awards and distinctions.								</p>
+									As a skilled software development and engineering professional, I have gained a strong foundation in a wide range of programming languages, including Python, Java, JavaScript, and COBOL, as well as various packages and libraries. I have also gained proficiency in tools and technologies such as IntelliJ, Virtual Studio Code, Bitbucket, JIRA, REST API, Eclipse, and Jenkins, and am proficient in database management systems including Postgres SQL, MySQL, and DB2. My internships, including one at Lexis Nexis Risk Solutions, have allowed me to gain valuable experience and hone my skills in developing and testing applications. My experience as an employee at Reva Energy & Equipment has also given me the opportunity to lead teams and organize client meetings and demonstrations. 
+								</br>
+								</br>
+									Currently, I am pursuing a Master's degree in Computer Science at NCSU, where I have completed coursework in design and analysis of algorithms, software engineering, and database management systems. In addition, I have completed technical courses and course projects in areas such as machine learning, data science, and artificial intelligence, and have been recognized for my academic and professional achievements with a number of awards and distinctions.								</p>
 								<div class="row">
-									<div class="col-sm-4">
+									<div class="col-sm-3">
 										<div class="single-about-add-info">
 											<h3>phone</h3>
 											<p>(+1)919-396-3158</p>
 										</div>
 									</div>
-									<div class="col-sm-4">
+									<div class="col-sm-3">
 										<div class="single-about-add-info">
 											<h3>email</h3>
 											<p>sdharma2@ncsu.edu</p>
 										</div>
 									</div>
+									<div class="col-sm-3">
+										<div class="single-about-add-info">
+											<a href="https://github.com/Suyogd9">
+												<i class="fa fa-github fa-2x"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="single-about-add-info">
+											<a href="https://www.linkedin.com/in/sdharma09/">
+												<i class="fa fa-linkedin fa-2x"></i>
+											</a>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-sm-offset-1 col-sm-5">
-							
-							<div>
-								<img src="assets/images/about/profile_image.jpg" alt="My Profile Image">
-								
-							</div>
-							<div class="center">
-								<ul>
-										<a href="https://github.com/Suyogd9">
-											<i class="fa fa-github fa-2x"></i>
-										</a>
-										<a href="https://www.linkedin.com/in/sdharma09/">
-											<i class="fa fa-linkedin fa-2x"></i>
-										</a>
-									
-								</ul>
-							</div>	
-
 						</div>
 					</div>
 				</div>
@@ -467,16 +480,17 @@
 									<h2 class="card-title"><u>Shiny WebApp for Bank data analysis</u></h2>
 									<p class="card-text">
 										<div>
-											<p class="bullet-point">* Developed a Shiny web application using R and R Studio</p>
-											<p class="bullet-point">* Enabled users to perform comprehensive analysis of bank data</p>
-											<p class="bullet-point">* Provided interactive visualizations, numerical summaries, and unsupervised classification models</p>
-											<p class="bullet-point">* Allowed users to gain insights and make predictions about individual data points</p>
-											<p class="bullet-point">* Utilized R, R Studio, Shiny, Tidyverse, dplyr</p>
+											<p id="projects">* Developed a Shiny web application using R and R Studio</p>
+											<p id="projects">* Enabled users to perform comprehensive analysis of bank data</p>
+											<p id="projects">* Provided interactive visualizations, numerical summaries, and unsupervised classification models</p>
+											<p id="projects">* Allowed users to gain insights and make predictions about individual data points</p>
+											<p id="projects">* Utilized R, R Studio, Shiny, Tidyverse, dplyr</p>
 										  </div>
 									</p>
 									</br>
 									<a href="https://github.com/Suyogd9/Bank-Data-Analysis" class="btn btn-primary">GitHub Repo</a>
 								</div>
+							</br>
 							</div>	
 						</div>
 						<div class="col-lg-4 col-md-6">
@@ -484,16 +498,17 @@
 								<div class="card-body">
 									<h2 class="card-title"><u>OnTrack bot</u></h2>
 									<p class="card-text">
-										<p class="bullet-point">* Developed OnTrack, a Mattermost bot using NodeJS and Trello's REST API</p>
-										<p class="bullet-point">* Automated workflow through text instructions</p>
-										<p class="bullet-point">* Stored user information in a Postgres SQL database </p>
-										<p class="bullet-point">* Deployed the bot on the server using Ansible playbooks</p>
-										<p class="bullet-point">* Included steps such as cloning the GitHub repository and installing necessary packages</p>
-										<p class="bullet-point">* Improved team productivity by streamlining Trello tasks through automated processes</p>
+										<p id="projects">* Developed OnTrack, a Mattermost bot using NodeJS and Trello's REST API</p>
+										<p id="projects">* Automated workflow through text instructions</p>
+										<p id="projects">* Stored user information in a Postgres SQL database </p>
+										<p id="projects">* Deployed the bot on the server using Ansible playbooks</p>
+										<p id="projects">* Included steps such as cloning the GitHub repository and installing necessary packages</p>
+										<p id="projects">* Improved team productivity by streamlining Trello tasks through automated processes</p>
 									</br>
 									<a href="https://github.com/Suyogd9/On-Track-Bot" class="btn btn-primary">GitHub Repo</a>
 								</div>
 							</div>	
+							</br>
 						</div>
 						
 						<div class="project-card">
@@ -501,17 +516,18 @@
 								<h2 class="card-title"><u>Anomalous Climate Pattern Detection</u></h2>
 								<p class="card-text">
 									
-									<p class="bullet-point">* Developed a time series-based anomaly detection model using Python, machine learning, and Jupyter notebook.</p>
+									<p id="projects">* Developed a time series-based anomaly detection model using Python, machine learning, and Jupyter notebook.</p>
 									
-									<p class="bullet-point">* Model detects erroneous data points in 40 million weather data points.</p>
+									<p id="projects">* Model detects erroneous data points in 40 million weather data points.</p>
 									
-									<p class="bullet-point">* Performed statistical and exploratory data analysis to infer special and temporal insights.</p>
+									<p id="projects">* Performed statistical and exploratory data analysis to infer special and temporal insights.</p>
 									
-									<p class="bullet-point">* Tuned hyperparameters between RF, XGBoost, and Bidirectional LSTM for improved precision-recall score of 96%.</p>
+									<p id="projects">* Tuned hyperparameters between RF, XGBoost, and Bidirectional LSTM for improved precision-recall score of 96%.</p>
 								</p>
 								</br>
 								<a href="https://github.com/NCSU-CSC522-Spring2022/Econet" class="btn btn-primary">GitHub Repo</a>
 							</div>
+							</br>
 						</div>	
 					</div>
 					<br/>
@@ -523,20 +539,21 @@
 									<h2 class="card-title"><u>Structured Pruning of Dense Nets</u></h2>
 									<p class="card-text">
 										<div>
-											<p class="bullet-point">* This project was aimed at performing a comparative analysis of three methods for structured pruning of dense neural networks using Python, Pytorch and Jupyter Notebook.</p>
-											<p class="bullet-point">* The dataset used for experiments was CIFAR-10, the focus of the project was to optimize training accuracy, training time, and CPU energy efficiency.</p>
-											<p class="bullet-point">* The three pruning techniques applied were:</p>
-											<ul>
-											  <li>Rank-based pruning</li>
-											  <li>Filter pruning based on non-zero weights</li>
-											  <li>Random filter pruning</li>
-											</ul>
-											<p class="bullet-point">* Experiments were designed to identify the most effective approach for improving the performance of dense neural networks.</p>
+											<p id="projects">* This project was aimed at performing a comparative analysis of three methods for structured pruning of dense neural networks using Python, Pytorch and Jupyter Notebook.</p>
+											<p id="projects">* The dataset used for experiments was CIFAR-10, the focus of the project was to optimize training accuracy, training time, and CPU energy efficiency.</p>
+											<p id="projects">* The three pruning techniques applied were:</p>
+													<ul>
+														<li id="liCenter">Rank-based pruning</li>
+														<li id="liCenter">Filter pruning based on non-zero weights</li>
+														<li id="liCenter">Random filter pruning</li>
+													</ul>
+											<p id="projects">* Experiments were designed to identify the most effective approach for improving the performance of dense neural networks.</p>
 										  </div>
 									</p>
 									</br>
 									<a href="https://github.com/ratharva/DenseNetFilterPruning" class="btn btn-primary">GitHub Repo</a>
 								</div>
+								</br>
 							</div>	
 						</div>
 						<div class="col-lg-4 col-md-6">
@@ -544,12 +561,13 @@
 								<div class="card-body">
 									<h2 class="card-title"><u>Loyalty rewards database application</u></h2>
 									<p class="card-text">
-										<p class="bullet-point">* Worked on Oracle MySQL to design database for multiple brand loyalty programs.</p>
-										<p class="bullet-point">* Developed database triggers to invoke procedures to check constraints and validations for data.</p>
-										<p class="bullet-point">* Implemented a database for multiple brand loyalty programs using Oracle MySQL, for customers to enroll and receive rewards.</p>
-										<p class="bullet-point">*Incorporated database triggers to invoke procedures for checking constraints and validations using JDBC and JAVA swing.</p>
+										<p id="projects">* Worked on Oracle MySQL to design database for multiple brand loyalty programs.</p>
+										<p id="projects">* Developed database triggers to invoke procedures to check constraints and validations for data.</p>
+										<p id="projects">* Implemented a database for multiple brand loyalty programs using Oracle MySQL, for customers to enroll and receive rewards.</p>
+										<p id="projects">*Incorporated database triggers to invoke procedures for checking constraints and validations using JDBC and JAVA swing.</p>
 									</br>
 								</div>
+								</br>
 							</div>	
 						</div>
 						<div class="col-lg-4 col-md-6">
@@ -557,12 +575,13 @@
 								<div class="card-body">
 									<h2 class="card-title"><u>Data analysis on two footballers</u></h2>
 									<p class="card-text">
-										<p class="bullet-point">* Produced a graphical representation of the performance of two footballers, Messi, and Ronaldo in Jupyter notebook</p>
-										<p class="bullet-point">* Used Python and Jupyter notebook</p>
-										<p class="bullet-point">* Acquired the data through Web scraping from a football statistics website and Kaggle</p>
+										<p id="projects">* Produced a graphical representation of the performance of two footballers, Messi, and Ronaldo in Jupyter notebook</p>
+										<p id="projects">* Used Python and Jupyter notebook</p>
+										<p id="projects">* Acquired the data through Web scraping from a football statistics website and Kaggle</p>
 									</br>
 								</div>
 							</div>	
+							</br>
 						</div>
 					</div>
 			</div><!--/.portfolio-details-->
